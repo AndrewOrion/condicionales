@@ -28,7 +28,11 @@ public class Ejercicio3 {
 		}
 		
 		if ( (fila1-fila2)==(col1-col2) ) {
-			
+			System.out.println("Las segunda pieza está en la diagonal principal de la primera");
+		}
+		
+		if ( ( (fila1-fila2) + (col1-col2) )==0 ) {
+			System.out.println("Las segunda pieza está en la diagonal secundaria de la primera");
 		}
 	}
 
